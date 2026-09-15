@@ -2,7 +2,7 @@
 
 ## 🥈 2nd Place — Institute Data Science Hackathon
 
-Machine learning solution developed for an institute-level Data Science hackathon to predict whether a passenger was satisfied with their overall Shinkansen travel experience.
+Machine learning solution developed for Data Science hackathon to predict whether a passenger was satisfied with their overall Shinkansen travel experience.
 
 ![Hackathon Rank](images/hackathon_rank.png)
 
@@ -83,8 +83,6 @@ For additional stability, the final notebook trains CatBoost and XGBoost using t
 
 This project was completed as part of an institute-conducted Data Science hackathon with a team size of 1–3 participants.
 
-The displayed competition result is based on the hackathon platform's recorded ranking.
-
 ---
 
 ## 🛠️ Tech Stack
@@ -110,18 +108,6 @@ Surveydata_train_(1).csv
 Traveldata_test_(1).csv
 Surveydata_test_(1).csv
 ```
-
-The datasets are not included in this repository unless redistribution is permitted by the competition organizers.
-
-To reproduce the project locally, download the files from the original hackathon platform and place them in:
-
-```text
-data/
-```
-
-See `data/README.md` for the expected filenames.
-
----
 
 ## 📁 Repository Structure
 
@@ -151,16 +137,6 @@ Shinkansen-Travel-Experience/
 - XGBoost provides a complementary gradient-boosting model.
 - Ensemble weight and threshold optimization improved the validation result during the hackathon.
 - The project demonstrates practical experience with feature engineering, categorical data handling, ensemble modeling, and competition-oriented model optimization.
-
----
-
-## ⚠️ Reproducibility Note
-
-The original hackathon notebook available after the event was incomplete and contained references to preprocessing/model objects whose definitions were no longer present.
-
-This GitHub version reconstructs those missing steps using the actual competition datasets and preserves the original documented modeling strategy.
-
-The **95.87% validation accuracy** is retained as the historical result recorded during the hackathon. A rerun of the cleaned notebook may produce a slightly different validation score depending on library versions and the exact preprocessing environment.
 
 ---
 
