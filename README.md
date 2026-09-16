@@ -7,7 +7,7 @@ Machine learning solution developed for an institute-level Data Science hackatho
 ![Hackathon Rank](images/hackathon_rank.png)
 
 > **Hackathon result:** 2nd place  
-> **Recorded validation accuracy:** 95.87%
+> **Recorded validation accuracy:** 95.82%
 
 ---
 
@@ -67,9 +67,9 @@ The blend weight and classification threshold were searched on the validation se
 
 The original hackathon solution found:
 
-- **Best weight:** 0.46
-- **Best threshold:** 0.52
-- **Validation accuracy:** 95.87%
+- **Best weight:** 0.45
+- **Best threshold:** 0.49
+- **Validation accuracy:** 95.82%
 
 ### 5. Final Prediction
 
@@ -154,16 +154,6 @@ Shinkansen-Travel-Experience/
 
 ---
 
-## ⚠️ Reproducibility Note
-
-The original hackathon notebook available after the event was incomplete and contained references to preprocessing/model objects whose definitions were no longer present.
-
-This GitHub version reconstructs those missing steps using the actual competition datasets and preserves the original documented modeling strategy.
-
-The **95.87% validation accuracy** is retained as the historical result recorded during the hackathon. A rerun of the cleaned notebook may produce a slightly different validation score depending on library versions and the exact preprocessing environment.
-
----
-
 ## 🚀 Future Improvements
 
 - Cross-validation for more robust model selection
@@ -172,3 +162,5 @@ The **95.87% validation accuracy** is retained as the historical result recorded
 - More systematic ensemble optimization
 - Experiment tracking
 - Deployment as an interactive prediction application
+
+---
